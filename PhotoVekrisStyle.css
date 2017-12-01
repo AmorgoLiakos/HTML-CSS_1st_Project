@@ -1,0 +1,1308 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;	
+}
+
+/*HEADER.MENU.WRAPPER.FOOTER*/
+nav{
+	border-bottom:1px solid #7e7e7e;
+	border-top:1px solid #7e7e7e;	
+}
+
+nav ul li{
+	list-style:none;
+	float:left;
+	width:31.33333%;
+	height:100px;
+	text-align:center;
+	display:block;
+	line-height:100px;
+	margin:1%;
+		
+}
+
+nav ul li a{
+	text-decoration:none;
+	font-family: 'Indie Flower', cursive;
+	display:block;
+	width:100%;
+	height:100%;
+	font-size:3em;
+	color:#0077ab;
+	
+}
+
+nav ul li a:hover{
+	background-color:#0077ab;
+	color:white;
+	border-radius:75%;
+	-webkit-transition:all 1s linear;	
+}
+
+.wrapper{
+	float:left;
+	max-width:950px;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:5%;
+}
+
+footer{
+	border-bottom:1px solid #7e7e7e;
+	border-top:1px solid #7e7e7e;
+	float:left;
+	margin-bottom:5%;
+}
+
+#adress{
+	font-family: 'Indie Flower', cursive;	
+	font-size:2em;
+	color:#0077ab;
+	text-align:center;
+	display:inline-block;
+	margin:3%;
+}
+
+#newsletter{
+	color:#0077ab;
+	border-radius:15px;
+	margin:4% 0;
+	font-size:2.5em;
+	height:90px;
+}
+
+#MailButton{
+	background-color:#d8d8d8;
+	color:#0077ab;
+	margin:4% 0;
+	height:90px;
+	border:1px solid black;
+	border-radius:15px;	
+	font-size:1.7em;
+	font-family: 'Indie Flower', cursive;
+}
+
+#MailButton:hover{
+	cursor:pointer;
+	-webkit-transform:scale(1.05,1.05);	
+}
+
+.social{
+	float:right;
+	margin:15% 2%;	
+}
+
+.socialIcon:hover{
+	-webkit-transform:scale(1.05,1.05);	
+}
+
+#copyright{
+	float:left;
+	margin:3%;	
+}
+
+/*HOME CSS*/
+
+.home .menuIcon{
+	-webkit-filter: grayscale(100%);
+	width:100%;
+	border:4px solid #0077ab;
+	border-radius:10px;
+}
+
+.home .menuText{
+	font-family: 'Indie Flower', cursive;
+	color:#0077ab;
+	font-size:2.5em;
+	position:relative;
+	top:-2.5em;left:2.5em;
+	visibility:hidden;	
+}
+
+.home .menuIcon:hover{
+	-webkit-filter: grayscale(0%);
+	opacity:0.5;
+	-webkit-transition:all 0.5s linear;
+		
+}
+.home .menuHome:hover .menuText{
+	visibility:visible;
+	display:inline-block;	
+}
+
+.home .menuText:hover .menuIcon{
+	-webkit-filter: grayscale(0%);	
+}
+
+/*ABOUT CSS*/
+
+.about .textAbout{
+	font-size:30px;
+	text-align:center;	
+}
+
+.about .aboutIcon{
+	border:5px solid #0077ab;
+	border-radius:20px;
+}
+
+.about .aboutDate{
+	font-weight:bold;	
+}
+
+/*CONTACT CSS*/
+
+.contact .epikoinonia input{
+ height:90px;
+ font-size:200%;
+ margin:5%;
+ text-align:center;	
+}
+
+.contact .odigies{
+	font-size:200%;
+	margin-top:5%;
+	text-align:center;	
+}
+
+.contact .epikoinonia > input{
+	margin-top:0;	
+}
+
+.contact .epikoinonia textarea{
+ font-size:200%;
+ margin:5%;
+ text-align:center;	
+}
+
+.contact #submit{
+	margin:5%;
+	width:100%;
+	height:50px;
+	font-size:200%;
+	color:#0077ab;
+	border:2px solid #0077ab;
+	border-radius:10px;
+}
+
+.contact #submit:hover{
+	cursor:pointer;
+	-webkit-transform:scale(1.05,1.05);
+}
+
+.contact #map{
+	border:5px solid #0077ab;
+	border-radius:15px;	
+}
+
+/*CATEGORY.WEDDING CSS*/
+
+.wedding .title{
+	color:#0077ab;
+	font-size:6em;
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+}
+
+.wedding .wText{
+	font-family: 'Indie Flower', cursive;
+	color:#0077ab;
+	font-size:2em;
+	position:relative;
+	top:-2em;left:1em;
+	display:inline-block;
+	visibility:hidden;
+	
+}
+
+.wedding .weddingIcon{
+	border:3px solid #0077ab;
+	border-radius:15px;
+	-webkit-filter:grayscale(100%);
+	width:100%;	
+}
+
+.wedding .weddingText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.wedding .weddingIntro{
+	margin:3% 0;	
+}
+
+.wedding #ResponsiveWeddingIntro{
+	display:none;		
+}
+
+.wedding .weddingIcon:hover{
+	-webkit-filter:grayscale(0%);
+	opacity:0.5;
+	cursor:pointer;	
+	-webkit-transition:all 0.5s linear;	
+}
+
+.wedding .wGallery:hover .wText{
+	visibility:visible;	
+}
+
+/*CATEGORY .STUDIO css*/
+
+.studio .title{
+	color:#0077ab;
+	font-size:6em;
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+}
+
+.studio .studioText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.studio .sText{
+	font-family: 'Indie Flower', cursive;
+	color:#0077ab;
+	font-size:3em;
+	position:relative;
+	top:-2em;left:2em;
+	display:inline-block;
+	visibility:hidden;
+	
+}
+
+.studio .studioIcon{
+	border:3px solid #0077ab;
+	border-radius:15px;
+	-webkit-filter:grayscale(100%);
+	width:100%;	
+}
+
+.studio .studioText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.studio .studioIntro{
+	margin:3% 0;	
+}
+
+.studio .studioIcon:hover{
+	-webkit-filter:grayscale(0%);
+	opacity:0.5;
+	cursor:pointer;	
+	-webkit-transition:all 0.5s linear;	
+}
+
+.studio .sGallery:hover .sText{
+	visibility:visible;	
+}
+
+/*CATEGORY .BAPTISM CSS*/
+
+.baptism .title{
+	color:#0077ab;
+	font-size:6em;
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+}
+
+.baptism .baptismText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.baptism .bText{
+	font-family: 'Indie Flower', cursive;
+	color:#0077ab;
+	font-size:3em;
+	position:relative;
+	top:-2em;left:2em;
+	display:inline-block;
+	visibility:hidden;
+	
+}
+
+.baptism .baptismIcon{
+	border:3px solid #0077ab;
+	border-radius:15px;
+	-webkit-filter:grayscale(100%);
+	width:100%;	
+}
+
+.baptism .baptismText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.baptism .baptismIntro{
+	margin:3% 0;	
+}
+
+baptism #ResponsiveBaptismIntro{
+	display:none;	
+}
+
+.baptism .baptismIcon:hover{
+	-webkit-filter:grayscale(0%);
+	opacity:0.5;
+	cursor:pointer;	
+	-webkit-transition:all 0.5s linear;	
+}
+
+.baptism .bGallery:hover .bText{
+	visibility:visible;	
+}
+
+/*CATEGORY .RETOUCH CSS*/
+
+.retouch .title{
+	color:#0077ab;
+	font-size:6em;
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+}
+
+.retouch .retouchText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.retouch .rText{
+	font-family: 'Indie Flower', cursive;
+	color:#0077ab;
+	font-size:3em;
+	position:relative;
+	top:-2em;left:2em;
+	display:inline-block;
+	visibility:hidden;
+	
+}
+
+.retouch .retouchIcon{
+	border:3px solid #0077ab;
+	border-radius:15px;
+	-webkit-filter:grayscale(100%);
+	width:100%;	
+}
+
+.retouch .retouchText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.retouch .retouchIntro{
+	margin:3% 0;	
+}
+
+.retouch #ResponsiveRetouchIntro{
+	display:none;	
+}
+
+.retouch .retouchIcon:hover{
+	-webkit-filter:grayscale(0%);
+	opacity:0.5;
+	cursor:pointer;	
+	-webkit-transition:all 0.5s linear;	
+}
+
+.retouch .rGallery:hover .rText{
+	visibility:visible;	
+}
+
+/*CATEGORY .PRINT CSS*/
+
+.print .title{
+	color:#0077ab;
+	font-size:6em;
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+}
+
+.print .printText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.print .pText{
+	font-family: 'Indie Flower', cursive;
+	color:#0077ab;
+	font-size:3em;
+	position:relative;
+	top:-2em;left:2em;
+	display:inline-block;
+	visibility:hidden;
+	
+}
+
+.print .printIcon{
+	border:3px solid #0077ab;
+	border-radius:15px;
+	-webkit-filter:grayscale(100%);
+	width:100%;	
+}
+
+.print .printText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.print .printIntro{
+	margin:3% 0;	
+}
+
+.print #ResponsivePrintIntro{
+	display:none;	
+}
+
+.print .printIcon:hover{
+	-webkit-filter:grayscale(0%);
+	opacity:0.5;	
+	-webkit-transition:all 0.5s linear;	
+}
+
+.print .pGallery:hover .pText{
+	visibility:visible;	
+}
+
+/*CATEGORY .GIFT CSS*/
+
+.gift .title{
+	color:#0077ab;
+	font-size:6em;
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+}
+
+.gift .giftText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.gift .gText{
+	font-family: 'Indie Flower', cursive;
+	color:#0077ab;
+	font-size:3em;
+	position:relative;
+	top:-2em;left:2em;
+	display:inline-block;
+	visibility:hidden;
+	
+}
+
+.gift .giftIcon{
+	border:3px solid #0077ab;
+	border-radius:15px;
+	-webkit-filter:grayscale(100%);
+	width:100%;	
+}
+
+.gift .giftText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.gift .giftIntro{
+	margin:3% 0;	
+}
+
+.gift #responsiveINTROgift{
+	display:none;	
+}
+.gift .giftIcon:hover{
+	-webkit-filter:grayscale(0%);
+	opacity:0.5;	
+	-webkit-transition:all 0.5s linear;	
+}
+
+.gift .gGallery:hover .gText{
+	visibility:visible;	
+}
+
+/*CATEGORY .SCHOOL CSS*/
+
+.school .title{
+	color:#0077ab;
+	font-size:6em;
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+}
+
+.school .schoolText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.school .scText{
+	font-family: 'Indie Flower', cursive;
+	color:#0077ab;
+	font-size:3em;
+	position:relative;
+	top:-2em;left:2em;
+	display:inline-block;
+	visibility:hidden;
+	
+}
+
+.school .schoolIcon{
+	border:3px solid #0077ab;
+	border-radius:15px;
+	-webkit-filter:grayscale(100%);
+	width:100%;	
+}
+
+.school .schoolText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.school .schoolIntro{
+	margin:3% 0;	
+}
+
+.school #ResponsiveSchoolIntro{
+	display:none;	
+}
+
+.school .schoolIcon:hover{
+	-webkit-filter:grayscale(0%);
+	opacity:0.5;
+	cursor:pointer;	
+	-webkit-transition:all 0.5s linear;	
+}
+
+.school .scGallery:hover .scText{
+	visibility:visible;	
+}
+
+/*CATEGORY .EVENT CSS*/
+
+.event .title{
+	color:#0077ab;
+	font-size:6em;
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+}
+
+.event .eventText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.event .eText{
+	font-family: 'Indie Flower', cursive;
+	color:#0077ab;
+	font-size:3em;
+	position:relative;
+	top:-2em;left:2em;
+	display:inline-block;
+	visibility:hidden;
+	
+}
+
+.event .eventIcon{
+	border:3px solid #0077ab;
+	border-radius:15px;
+	-webkit-filter:grayscale(100%);
+	width:100%;	
+}
+
+.event .eventText{
+	font-size:2em;
+	font-family:'Indie Flower', cursive;
+	color:#0077ab;
+	text-align:center;
+}
+
+.event .eventIntro{
+	margin:3% 0;	
+}
+
+.event #responsiveEventIntro{
+	display:none;	
+}
+
+.event .eventIcon:hover{
+	-webkit-filter:grayscale(0%);
+	opacity:0.5;
+	cursor:pointer;	
+	-webkit-transition:all 0.5s linear;	
+}
+
+.event .eGallery:hover .eText{
+	visibility:visible;	
+}
+/*STANTARD CSS*/
+
+.active{
+	background-color:#0077ab;
+	color:white;
+	border-radius:75%;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+
+/*RESPONSIVE*/
+
+
+@media screen and (max-width:1230px){
+	
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;	
+	}
+	
+	/*FOOTER*/
+	
+	.home footer #adressdiv, .about footer #adressdiv, .contact footer #adressdiv, .wedding footer #adressdiv, .baptism footer #adressdiv, .studio footer #adressdiv, .retouch footer #adressdiv, .print footer #adressdiv, .gift footer #adressdiv, .school footer #adressdiv, .event footer #adressdiv{
+		width:100%;
+		text-align:center;
+	}
+	
+	.home footer #newsletter, .about footer #newsletter, .contact footer #newsletter, .wedding footer #newsletter, .baptism footer #newsletter, .studio footer #newsletter, .retouch footer #newsletter, .print footer #newsletter, .gift footer #newsletter, .school footer #newsletter, .event footer #newsletter{
+		width:70%;
+	}
+	
+	.home footer #MailButton, .about footer #MailButton, .contact footer #MailButton, .wedding footer #MailButton, .baptism footer #MailButton, .studio footer #MailButton, .retouch footer #MailButton, .print footer #MailButton, .gift footer #MailButton, .school footer #MailButton, .event footer #MailButton{
+		width:27%;
+		margin-left:1%;
+	}
+	
+	.home footer #ResponsiveSocialDiv, .about footer #ResponsiveSocialDiv, .contact footer #ResponsiveSocialDiv, .wedding footer #ResponsiveSocialDiv, .baptism footer #ResponsiveSocialDiv, .studio footer #ResponsiveSocialDiv, .retouch footer #ResponsiveSocialDiv, .print footer #ResponsiveSocialDiv, .gift footer #ResponsiveSocialDiv, .school footer #ResponsiveSocialDiv, .event footer #ResponsiveSocialDiv{
+		width:100%;
+		text-align:center;
+	}
+	
+	.home footer .social, .about footer .social, .contact footer .social, .wedding footer .social, .baptism footer .social, .studio footer .social, .retouch footer .social, .print footer .social, .gift footer .social, .school footer .social, .event footer .social{
+		width:30%;
+		float:none;
+		margin:1.5%;
+	}
+	
+	.home footer .socialIcon, .about footer .socialIcon, .contact footer .socialIcon, .wedding footer .socialIcon, .baptism footer .socialIcon, .studio footer .socialIcon, .retouch footer .socialIcon, .print footer .socialIcon, .gift footer .socialIcon, .school footer .socialIcon, .event footer .socialIcon{
+		width:10%;	
+	}
+	
+	/*HOME*/
+	
+	.home .menuHome{
+		width:50%;	
+	}
+	
+	.home .menuText{
+		font-size:1.6em;	
+	}
+	
+	/*ABOUT*/
+	
+	.about .wrapper{
+		margin:0 15%;
+	}
+	
+	.about .aboutIcon{
+		width:100%;
+		margin:0;	
+	}
+	
+	.about .textAbout{
+		width:100%;
+		margin:0;
+	}
+	
+	/*CONTACT*/
+	
+	.contact #responsiveMap, .contact #responsiveFORM{
+		width:100%;
+		text-align:center;	
+	}
+	
+	.contact #submit{
+		width:50%;	
+	}
+	
+	/*WEDDING*/
+	
+	.wedding .wrapper{
+		max-width:1230px;
+		margin:0 auto;	
+	}
+	
+	.wedding .weddingText{
+		width:100%;
+		margin:0;
+	}
+	
+	.wedding .wText{
+		font-size:1.6em;	
+	}
+	
+	.wedding .wGallery{
+		width:33%;	
+	}
+	
+	/*BAPTISM*/
+	
+	.baptism .wrapper{
+		max-width:1230px;
+		margin:0 auto;	
+	}
+	
+	.baptism .bText{
+		font-size:1.6em;	
+	}
+	
+	.baptism .baptismText{
+		width:100%;	
+		margin:0;
+	}
+	
+	.baptism .bGallery{
+		width:33%;	
+	}
+	
+	/*STUDIO*/
+	
+	.studio .wrapper{
+		max-width:1230px;
+		margin:0 auto;	
+	}
+	
+	.studio .sText{
+		font-size:1.6em;	
+	}
+	
+	.studio .studioText{
+		width:100%;
+		margin:0;
+	}
+	
+	.studio .sGallery{
+		width:33%;		
+	}
+	
+	/*RETOUCH*/
+	
+	.retouch .wrapper{
+		max-width:1230px;
+		margin:0 auto;	
+	}
+	
+	.retouch .rText{
+		font-size:1.6em;	
+	}
+	
+	.retouch .retouchText{
+		width:100%;	
+		margin:0;
+	}
+	
+	.retouch .rGallery{
+		width:33%;	
+	}
+	
+	/*PRINT*/
+	
+	.print .wrapper{
+		max-width:1230px;
+		margin:0 auto;	
+	}
+	
+	.print .pText{
+		font-size:2.5em;	
+	}
+	
+	.print .printText{
+		width:100%;	
+		margin:0;
+	}
+	
+	.print .pGallery{
+		width:100%;	
+	}
+	
+	/*GIFT*/
+	
+	.gift .wrapper{
+		max-width:1230px;
+		margin:0 auto;	
+	}
+	
+	.gift .gText{
+		font-size:2.5em;	
+	}
+	
+	.gift .giftText{
+		width:100%;	
+		margin:0;
+	}
+	
+	.gift .gGallery{
+		width:100%;	
+	}
+	
+	/*SCHOOL*/
+	
+	.school .wrapper{
+		max-width:1230px;
+		margin:0 auto;	
+	}
+	
+	.school .scText{
+		font-size:1.6em;	
+	}
+	
+	.school .schoolText{
+		width:100%;	
+		margin:0;
+	}
+	
+	.school .scGallery{
+		width:33%;	
+	}
+	
+	/*EVENTS*/
+	
+	.event .wrapper{
+		max-width:1230px;
+		margin:0 auto;	
+	}
+	
+	.event .eText{
+		font-size:1.6em;	
+	}
+	
+	.event .eventText{
+		width:100%;	
+		margin:0;
+	}
+	
+	.event .eGallery{
+		width:33%;	
+	}
+}
+
+
+@media screen and (max-width:720px){
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;	
+	}
+	
+	/*HEADER + NAV*/
+	
+	.home header, .about header, .contact header, .wedding header, .baptism header, .studio header, .retouch header, .print header, .gift header, .school header, .event header{
+		float:left;
+		width:50%;	
+	}
+	
+	.home nav, .about nav, .contact nav, .wedding nav, .baptism nav, .studio nav, .retouch nav, .print nav, .gift nav, .school nav, .event nav{
+		float:left;
+		width:50%;
+		border:none;
+	}
+	
+	.home nav ul li, .about nav ul li, .contact nav ul li, .wedding nav ul li, .baptism nav ul li, .studio nav ul li, .retouch nav ul li, .print nav ul li, .gift nav ul li, .school nav ul li, .event nav ul li{
+		float:left;
+		height:150px;
+		line-height:150px;
+		width:40%;
+	}
+	
+	.home nav ul li:nth-child(2), .about nav ul li:nth-child(2), .contact nav ul li:nth-child(2), .wedding nav ul li:nth-child(2), .baptism nav ul li:nth-child(2), .studio nav ul li:nth-child(2), .retouch nav ul li:nth-child(2), .print nav ul li:nth-child(2), .gift nav ul li:nth-child(2), .school nav ul li:nth-child(2), .event nav ul li:nth-child(2){
+		display:none;
+	}
+	
+	.home #Logo, .about #Logo, .contact #Logo, .wedding #Logo, .baptism #Logo, .studio #Logo, .retouch #Logo, .print #Logo, .gift #Logo, .school #Logo, .event #Logo{
+		width:100%;
+		margin:0;	
+	}
+	
+	.home nav ul li a, .about nav ul li a, .contact nav ul li a, .wedding nav ul li a, .baptism nav ul li a, .studio nav ul li a, .retouch nav ul li a, .print nav ul li a, .gift nav ul li a, .school nav ul li a, .event nav ul li a{
+		font-size:2em;
+	}
+	
+	/*FOOTER*/
+	
+	.home footer #adressdiv, .about footer #adressdiv, .contact footer #adressdiv, .wedding footer #adressdiv, .baptism footer #adressdiv, .studio footer #adressdiv, .retouch footer #adressdiv, .print footer #adressdiv, .gift footer #adressdiv, .school footer #adressdiv, .event footer #adressdiv{
+		width:100%;
+		text-align:center;
+	}
+	
+	.home footer #newsletter, .about footer #newsletter, .contact footer #newsletter, .wedding footer #newsletter, .baptism footer #newsletter, .studio footer #newsletter, .retouch footer #newsletter, .print footer #newsletter, .gift footer #newsletter, .school footer #newsletter, .event footer #newsletter{
+		width:70%;
+	}
+	
+	.home footer #MailButton, .about footer #MailButton, .contact footer #MailButton, .wedding footer #MailButton, .baptism footer #MailButton, .studio footer #MailButton, .retouch footer #MailButton, .print footer #MailButton, .gift footer #MailButton, .school footer #MailButton, .event footer #MailButton{
+		width:27%;
+		margin-left:1%;
+	}
+	
+	.home footer #ResponsiveSocialDiv, .about footer #ResponsiveSocialDiv, .contact footer #ResponsiveSocialDiv, .wedding footer #ResponsiveSocialDiv, .baptism footer #ResponsiveSocialDiv, .studio footer #ResponsiveSocialDiv, .retouch footer #ResponsiveSocialDiv, .print footer #ResponsiveSocialDiv, .gift footer #ResponsiveSocialDiv, .school footer #ResponsiveSocialDiv, .event footer #ResponsiveSocialDiv{
+		width:100%;
+		text-align:center;
+	}
+	
+	.home footer .social, .about footer .social, .contact footer .social, .wedding footer .social, .baptism footer .social, .studio footer .social, .retouch footer .social, .print footer .social, .gift footer .social, .school footer .social, .event footer .social{
+		width:30%;
+		float:none;
+		margin:1.5%;
+	}
+	
+	.home footer .socialIcon, .about footer .socialIcon, .contact footer .socialIcon, .wedding footer .socialIcon, .baptism footer .socialIcon, .studio footer .socialIcon, .retouch footer .socialIcon, .print footer .socialIcon, .gift footer .socialIcon, .school footer .socialIcon, .event footer .socialIcon{
+		width:28%;	
+	}
+	
+	/*HOME*/
+	
+	.home .menuHome{
+		width:50%;	
+	}
+	
+	.home .menuText{
+		font-size:1.6em;	
+	}
+	
+	/*CONTACT*/
+	
+	.contact .wrapper{
+		margin:0;	
+	}
+	
+	.contact #map{
+		width:100% !important;
+		margin:0 !important;	
+	}
+	
+	.contact #responsiveMap, .contact #responsiveFORM{
+		width:100% !important;
+		text-align:center;
+		margin:0 !important;	
+	}
+	
+	.contact .epikoinonia input, .contact .epikoinonia textarea{
+		margin:1% 0;
+		width:80% !important;	
+	}
+	
+	/*WEDDING*/
+	
+	.wedding .title{
+		width:100%;
+		font-size:2em;	
+	}
+	.wedding .weddingIntro{
+		display:none;	
+	}
+	
+	.wedding #ResponsiveWeddingIntro{
+		display:block;	
+		text-align:center;
+		width:100%;
+	}
+	
+	.wedding .wText{
+		font-size:1.6em;	
+	}
+	
+	.wedding .weddingText{
+		width:100%;	
+	}
+	
+	/*BAPTISM*/
+	
+	.baptism .title{
+		width:100%;
+		font-size:2em;	
+	}
+	
+	.baptism .baptismIntro{
+		display:none;	
+	}
+	
+	.baptism #ResponsiveBaptismIntro{
+		display:block;	
+		text-align:center;
+		width:100%;
+	}
+	
+	.baptism .bText{
+		font-size:1.6em;	
+	}
+	
+	.baptism .baptismText{
+		width:100%;	
+	}
+	
+	/*STUDIO*/
+	
+	.studio .title{
+		width:100%;	
+		font-size:2em;	
+	}
+	.studio .studioIntro{
+		text-align:center;
+		margin:0;	
+	}
+	
+	.studio .sText{
+		font-size:1.6em;	
+	}
+	
+	.studio .studioText{
+		width:100%;	
+	}
+	
+	.studio .sGallery{
+		width:33%;	
+	}
+	
+	/*RETOUCH*/
+	
+	.retouch .title{
+		width:100%;
+		font-size:2em;	
+	}
+	.retouch .retouchIntro{
+		display:none;	
+	}
+	
+	.retouch #ResponsiveRetouchIntro{
+		display:block;	
+		text-align:center;
+		width:100%;
+	}
+	
+	.retouch .rText{
+		font-size:1.6em;	
+	}
+	
+	.retouch .retouchText{
+		width:100%;	
+	}
+	
+	/*PRINT*/
+	
+	.print .title{
+		width:100%;
+		font-size:2em;	
+	}
+	.print .printIntro{
+		display:none;	
+	}
+	
+	.print #ResponsivePrintIntro{
+		display:block;	
+		text-align:center;
+		width:100%;
+	}
+	
+	.print .pText{
+		font-size:1.8em;	
+	}
+	
+	.print .printText{
+		width:100%;	
+	}
+	
+	/*GIFT*/
+	
+	.gift .title{
+		width:100%;
+		font-size:2em;	
+	}
+	
+	.gift .giftIntro{
+		display:none;	
+	}
+	
+	.gift #responsiveINTROgift{
+		display:block;	
+		text-align:center;
+		width:100%;
+	}
+	
+	.gift .gText{
+		font-size:1.8em;	
+	}
+	
+	.gift .giftText{
+		width:100%;	
+	}
+	
+	/*SCHOOL*/
+	
+	.school .title{
+		width:100%;
+		font-size:2em;	
+	}
+	.school .schoolIntro{
+		display:none;	
+	}
+	
+	.school #ResponsiveSchoolIntro{
+		display:block;	
+		text-align:center;
+		width:100%;
+	}
+	
+	.school .scText{
+		font-size:1.6em;	
+	}
+	
+	.school .schoolText{
+		width:100%;	
+	}
+	
+	/*EVENTS*/
+	
+	.event .title{
+		width:100%;
+		font-size:2em;	
+	}
+	.event .eventIntro{
+		display:none;	
+	}
+	
+	.event #responsiveEventIntro{
+		display:block;	
+		text-align:center;
+		width:100%;
+	}
+	
+	.event .eText{
+		font-size:1.6em;	
+	}
+	
+	.event .eventText{
+		width:100%;	
+	}
+}
+
+
+@media screen and (max-width:620px){
+ 
+ 	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;	
+	}
+	
+		/*HEADER + NAV*/
+	
+	.home header, .about header, .contact header, .wedding header, .baptism header, .studio header, .retouch header, .print header, .gift header, .school header, .event header{
+		float:none;
+		width:100%;	
+	}
+	
+	.home nav, .about nav, .contact nav, .wedding nav, .baptism nav, .studio nav, .retouch nav, .print nav, .gift nav, .school nav, .event nav{
+		float:none;
+		width:100%;
+		border:none;
+	}
+	
+	.home nav ul li, .about nav ul li, .contact nav ul li, .wedding nav ul li, .baptism nav ul li, .studio nav ul li, .retouch nav ul li, .print nav ul li, .gift nav ul li, .school nav ul li, .event nav ul li{
+		float:left;
+		height:150px;
+		line-height:150px;
+		width:48%;
+	}
+	
+	.home nav ul li:nth-child(2), .about nav ul li:nth-child(2), .contact nav ul li:nth-child(2), .wedding nav ul li:nth-child(2), .baptism nav ul li:nth-child(2), .studio nav ul li:nth-child(2), .retouch nav ul li:nth-child(2), .print nav ul li:nth-child(2), .gift nav ul li:nth-child(2), .school nav ul li:nth-child(2), .event nav ul li:nth-child(2){
+		display:none;
+	}
+	
+	.home #Logo, .about #Logo, .contact #Logo, .wedding #Logo, .baptism #Logo, .studio #Logo, .retouch #Logo, .print #Logo, .gift #Logo, .school #Logo, .event #Logo{
+		width:100%;
+		margin:0;	
+	}
+	
+	.home nav ul li a, .about nav ul li a, .contact nav ul li a, .wedding nav ul li a, .baptism nav ul li a, .studio nav ul li a, .retouch nav ul li a, .print nav ul li a, .gift nav ul li a, .school nav ul li a, .event nav ul li a{
+		font-size:2em;
+	}
+	
+	.home footer #MailButton, .about footer #MailButton, .contact footer #MailButton, .wedding footer #MailButton, .baptism footer #MailButton, .studio footer #MailButton, .retouch footer #MailButton, .print footer #MailButton, .gift footer #MailButton, .school footer #MailButton, .event footer #MailButton{
+		font-size:1em;
+	}
+	
+	/*HOME*/
+	
+	.home .menuHome{
+		width:100%;	
+	}
+	
+	.home .menuText{
+		font-size:1.2em;	
+	}
+	
+	/*WEDDING*/
+	
+	.wedding .wGallery{
+		width:100%;	
+	}
+	
+	/*BAPTISM*/
+	
+	.baptism .bGallery{
+		width:100%;
+	}
+	
+	/*STUDIO*/
+	
+	.studio .sGallery{
+		width:100%;	
+	}
+	
+	/*RETOUCH*/
+	
+	.retouch .rGallery{
+		width:100%;	
+	}
+	
+	/*SCHOOL*/
+	
+	.school .scGallery{
+		width:100%;	
+	}
+	
+	/*EVENTS*/
+	
+	.event .eGallery{
+		width:100%;	
+	}
+}
+
